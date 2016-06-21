@@ -1,0 +1,12 @@
+Source: ros-indigo-softkinetic
+Section: misc
+Priority: extra
+Maintainer: florian Weisshardt <fmw@ipa-fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-indigo-catkin
+Homepage: http://wiki.ros.org/softkinetic
+Standards-Version: 3.9.2
+
+Package: ros-indigo-softkinetic
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-indigo-softkinetic-camera
+Description: The softkinetic package
